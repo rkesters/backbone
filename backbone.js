@@ -84,10 +84,10 @@
   var Events = Backbone.Events = {};
 
   // Regular expression used to split event strings.
-  var eventSplitter = /\s+/;
+    var eventSplitter = /\s+/;
 
   // A private global variable to share between listeners and listenees.
-  var _listening;
+    var _listening;
 
   // Iterates over the standard `event, callback` (as well as the fancy multiple
   // space-separated events `"change blur", callback` and jQuery-style event
