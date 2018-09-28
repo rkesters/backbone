@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "AMD",
+        "lib": ["es5", "es6", "es7", "es2017", "dom"],
+        "noImplicitAny": false,
+        "allowJs": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "outDir": "dist/som",
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "rootDir": "src",
+        "baseUrl": "src",
+        "paths": {
+            "som/*": ["*"]
+        }
+    },
+    "include": ["src/**/*", "typings.d.ts", "global.d.ts"],
+    "exclude": ["dist"]
+}
